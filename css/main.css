@@ -1,0 +1,328 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+.UpText {
+	text-transform: uppercase;
+}
+
+.all-title {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	font-size: 40px;
+	font-weight: bold;	
+}
+
+/*Header! =========================================*/
+.nav-link {
+	margin-right: 20px;
+	transition: 0.5s;
+}
+
+.nav-link:hover {
+	color: #40d4cf !important;
+}
+
+.bg-color {
+	background: #e9e9e9;
+}
+
+.head-right {
+ padding-top: 180px;
+ text-align: right;
+}
+
+.header__title {
+	margin-top: 180px;
+	font-size: 40px;
+}
+
+.head__text {
+	color: #787878;
+	font-size: 18px;
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #10c9c3;
+    border-color: #10c9c3;
+    border-radius: 1px;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.btn-retreat1 {
+	margin-bottom: 250px;
+}
+
+/*About ===================*/
+
+.about-hight {
+	margin-bottom: 120px;
+}
+
+.about-text {
+	font-size: 16px;
+	color: #787878;
+	font-family: 'Nunito Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-img {
+	margin: 0;
+	text-align: center;
+}
+
+/*Profesional skills ==================*/
+
+.skill-height {
+	background: #e9e9e9;
+}
+
+.skill-text {
+	margin-top: 150px;
+	font-size: 30px;
+	color: #171717;
+}
+
+.skill-bg {
+	background: #f8f9f9;
+	padding-bottom: 150px;
+}
+
+/*Progress */
+
+.progress-text {
+	font-size: 15px;
+	color: #171717;
+}
+
+.progress {
+	margin-bottom: 50px;
+	height: 5px;
+}
+
+
+.progress-bar {
+	background: #10c9c3;
+}
+
+/*STATISTIC ===========*/
+
+.statistic-height {
+	background: #10c9c3;
+	padding-bottom: 50px;
+}
+
+.statistic-text {
+	font-size: 16px;
+	color: white;
+	margin: 0;
+	padding: 0px;
+
+}
+
+.statistic-retreat {
+	margin-top: 50px;
+}
+
+.statistic-img {
+ height: px;
+}
+
+/*GALLERY*/
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  color: #fff;
+  font-size: 24px;
+  line-height: 100px; /* centering text just for view */
+  text-align: center;
+  display: none;
+  margin-bottom: 20px;
+}
+
+
+
+.noContent {
+  color: #000 !important;
+  pointer-events: none;
+}
+
+.img-gallery {
+	width: 100%;
+	height: 100%;
+}
+
+.gallert-btn {
+	font-size: 20px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	background: #f5f5f5;
+	border: 1px solid #f5f5f5;
+	padding-bottom: 20px;
+	transition: 0.5s;
+	text-decoration: none;
+	margin-bottom: 100px;
+}
+
+.btn {
+	text-decoration: none;
+}
+.btn:focus {
+ border: 1px solid #f5f5f5;
+}
+
+.gallert-btn:hover {
+	text-decoration: none;
+	color: #54a5f8;
+	border: 1px solid #f5f5f5;
+
+}
+
+/*Work Process ===============*/
+
+
+.process-text {
+	font-size: 16px;
+	color: #898989;
+	padding-bottom: 60px;
+}
+
+.process-img {
+	background: #e9e9e9;
+	width: 100%;
+	height: 570px;
+    margin-bottom: 100px;
+}
+
+.img-d {
+ padding-top: 260px;
+}
+
+/*Services*/
+
+.icons-retreat {
+	padding-top: 100px;
+}
+
+.icons-bg {
+	background: #f5f5f5;
+	padding-bottom: 40px;
+}
+
+.icons-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #191919;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.icons-text {
+	color: #787878;
+	font-size: 16px;
+	padding-bottom: 65px;
+
+}
+
+/* Testimonials Slider!=======*/
+
+.slider-height {
+	height: 500px;
+	background: #10c9c3;
+}
+
+.slider-title {
+	color: white;
+	padding-top: 150px;
+	font-size: 24px;
+}
+
+.slider-text {
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+/* Sponsors========*/
+
+.sponsors-retreat {
+ padding-top: 70px;
+ padding-bottom: 70px;
+}
+
+
+/*Contact========*/
+
+.contact-bg {
+	background: #f5f5f5;
+}
+
+.contact-title {
+	padding-top: 100px;
+	font-size: 40px;
+	color: #494949;
+	padding-bottom: 50px;
+}
+
+.contact-retreat {
+	height: 50px;
+
+	margin-bottom: 30px;
+}
+
+/*FOOTER ====*/
+
+.footer {
+	background: #141414;
+	padding-bottom: 100px;
+}
+
+.footer-retreat {
+	margin-top: 100px;
+}
+
+.footer-title {
+ font-size: 18px;
+ color: white;
+}
+
+.footer-text {
+	display: block;
+	font-size: 15px;
+	color: #bcbcbc;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.footer-text:hover {
+	text-decoration: none;
+}
+
+.footer-link {
+	display: block;
+	font-size: 15px;
+	color: #bcbcbc;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.footer-link:hover {
+	text-decoration: none;
+}

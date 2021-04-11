@@ -1,9 +1,17 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 
 .UpText {
 	text-transform: uppercase;
+}
+
+.all-title {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	font-size: 40px;
+	font-weight: bold;	
 }
 
 /*Header! =========================================*/
@@ -60,13 +68,6 @@ body {
 	margin-bottom: 120px;
 }
 
-.about-title {
-	margin-top: 40px;
-	margin-bottom: 50px;
-	font-size: 40px;
-	font-weight: bold;
-}
-
 .about-text {
 	font-size: 16px;
 	color: #787878;
@@ -93,12 +94,12 @@ body {
 	color: #171717;
 }
 
-
 .skill-bg {
 	background: #f8f9f9;
 	padding-bottom: 150px;
 }
 
+/*Progress */
 
 .progress-text {
 	font-size: 15px;
@@ -195,12 +196,6 @@ body {
 
 /*Work Process ===============*/
 
-.process-title {
-	font-size: 40px;
-	color: #494949;
-	padding-bottom: 50px;
-	font-weight: bold;
-}
 
 .process-text {
 	font-size: 16px;

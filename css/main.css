@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,35 +26,35 @@ body {
 /*Header*/
 
 #head {
-	position: relative;
+    position: relative;
 }
 
 .head-img {
-	background: url(../img/bg-head.jpg) no-repeat;
-	background-size: 100%;
+    background: url(../img/bg-head.jpg) no-repeat;
+    background-size: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-.head-img {
-	background-size: 2000px;
-}
+    .head-img {
+        background-size: 2000px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-.head-img {
-	background-size: 1700px;
-}
+    .head-img {
+        background-size: 1700px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-.head-img {
-	background-size: 1500px;
-}
+    .head-img {
+        background-size: 1500px;
+    }
 }
 
 .bg-color {
-	position: absolute;
-	max-width: 1270px;
+    position: absolute;
+    max-width: 1270px;
 }
 
 .nav-link {
@@ -143,7 +143,7 @@ body {
 }
 
 .skill-distance {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 .skill-bg {
@@ -152,10 +152,10 @@ body {
 }
 
 .skill-img {
-	padding: 0px;
-	width: 100%;
-	height: 640px;
-	margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 640px;
+    margin: 0px;
 }
 
 /*Progress*/
@@ -178,13 +178,13 @@ body {
 /*Statistic*/
 
 @media screen and (max-width: 768px) {
-.statistic-digressions {
-	text-align: center;
-}
+    .statistic-digressions {
+        text-align: center;
+    }
 
-.statistic-img {
-	margin-right: 30px;
-}
+    .statistic-img {
+        margin-right: 30px;
+    }
 }
 
 .statistic-height {
@@ -193,17 +193,17 @@ body {
 }
 
 .statistic-name {
-	font-size: 12px;
+    font-size: 12px;
     color: white;
     margin: 0;
-	padding: 0px
+    padding: 0px
 }
 
 .statistic-text {
     font-size: 18px;
     color: white;
     margin: 0;
-	padding: 0px;
+    padding: 0px;
 }
 
 .statistic-retreat {
@@ -211,31 +211,31 @@ body {
 }
 
 .statistic-img {
-	margin-left: 40px;
+    margin-left: 40px;
 }
 
 .statistic-digressions {
-	padding: 0px;
+    padding: 0px;
 }
 
 /*Work*/
 
 .content {
-	position: relative;
+    position: relative;
     margin-bottom: 0px;
     padding: 0px;
 }
 
 .bg-hover {
-	position: relative;
-	z-index: 1;	
+    position: relative;
+    z-index: 1;
     opacity: 0;
     transition: 0.2s;
-    width: 100%;  
+    width: 100%;
 }
 
 .bg-hover:hover {
-	opacity: 1;		
+    opacity: 1;
 }
 
 .noContent {
@@ -244,15 +244,15 @@ body {
 }
 
 .hidden {
-	display: none;
+    display: none;
 }
 
 .img-gallery {
-	position: absolute;
-	left: 0px;
-	z-index: 0;
-	height: 100%;
-	width: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -286,12 +286,12 @@ body {
 /*Work Process*/
 
 .fixed-row-other {
-	margin-right: 0px;
-	margin-left: 15px;
+    margin-right: 0px;
+    margin-left: 15px;
 }
 
 .process-img {
-	padding: 0px;
+    padding: 0px;
     margin-bottom: 100px;
     height: 580px;
     width: 100%;
@@ -350,18 +350,18 @@ body {
 /* Sponsors*/
 
 #sponsor-row {
-	display: flex;	
-	flex-direction: column;
-	flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
 }
 
 @media screen and (max-width: 768px) {
-#sponsor-row {
-	display: flex;	
-	flex-direction: column;
-	flex-basis: 100%;
-	flex-wrap: wrap;
-}
+    #sponsor-row {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
 }
 
 .sponsors-retreat {
@@ -383,16 +383,15 @@ body {
 }
 
 .contact-retreat {
-    height: 50px;   
+    height: 50px;
 }
 
 .form-control {
-	margin-bottom: 30px;
-	border: 1px solid white;
+    margin-bottom: 30px;
+    border: 1px solid white;
 }
 
-.md-textarea {
-}
+.md-textarea {}
 
 
 /*Footer*/

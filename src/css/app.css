@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+.up-text {
+    text-transform: uppercase;
+}
+
+.all-text {
+    padding-bottom: 60px;
+    font-size: 16px;
+    color: #787878;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.all-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Header */
+
+#head {
+    position: relative;
+}
+
+.head-img {
+    background: url("../img/bg-head.jpg");
+    background-size: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .head-img {
+        background-size: 2000px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .head-img {
+        background-size: 1700px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .head-img {
+        background-size: 1500px;
+    }
+}
+
+.bg-color {
+    position: absolute;
+    max-width: 1270px;
+}
+
+.nav-link {
+    margin-left: 20px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #40d4cf !important;
+}
+
+.head-right {
+    padding-top: 180px;
+    text-align: right;
+}
+
+.header-title {
+    margin-top: 180px;
+    font-size: 37px;
+    color: #1d1d1d;
+}
+
+.head-text {
+    margin-bottom: 401px;
+    font-family: "Nunito-Sans", sans-serif;
+    font-size: 18px;
+    color: #787878;
+}
+
+.btn-primary {
+    margin-bottom: 100px;
+    border-color: #10c9c3;
+    border-radius: 1px;
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #10c9c3;
+    cursor: pointer;
+}
+
+.btn-retreat1 {
+    margin-bottom: 250px;
+}
+
+/* About */
+
+.about-height {
+    margin-bottom: 120px;
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    color: #787878;
+}
+
+.about-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-img {
+    margin: 0;
+    text-align: center;
+}
+
+/* Professional skills */
+
+.skill-height {
+    background: #e9e9e9;
+}
+
+.skill-text {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #171717;
+}
+
+.skill-distance {
+    margin-left: 20px;
+}
+
+.skill-bg {
+    padding-bottom: 150px;
+    background: #f8f9f9;
+}
+
+.skill-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 640px;
+}
+
+/* Progress */
+
+.progress-text {
+    font-weight: bold;
+    font-size: 12px;
+    color: #171717;
+}
+
+.progress {
+    margin-bottom: 35px;
+    height: 5px;
+}
+
+.progress-bar {
+    background: #10c9c3;
+}
+
+/* Statistic */
+
+@media screen and (max-width: 768px) {
+    .statistic-digressions {
+        text-align: center;
+    }
+
+    .statistic-img {
+        margin-right: 30px;
+    }
+}
+
+.statistic-height {
+    padding-bottom: 50px;
+    background: #10c9c3;
+}
+
+.statistic-name {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: white;
+}
+
+.statistic-text {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.statistic-retreat {
+    margin-top: 50px;
+}
+
+.statistic-img {
+    margin-left: 40px;
+}
+
+.statistic-digressions {
+    padding: 0;
+}
+
+/* Work */
+
+.content {
+    position: relative;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.bg-hover {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.bg-hover:hover {
+    opacity: 1;
+}
+
+.noContent {
+    color: #000 !important;
+    pointer-events: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.img-gallery {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-btn {
+    border: 1px solid #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-decoration: none;
+    color: #8e8e8e;
+    background: #f5f5f5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.btn:focus {
+    border: 1px solid #f5f5f5;
+}
+
+.gallery-btn:hover {
+    border: 1px solid #f5f5f5;
+    text-decoration: none;
+    color: #54a5f8;
+}
+
+/* Work Process */
+
+.fixed-row-other {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.process-img {
+    margin-bottom: 100px;
+    padding: 0;
+    max-width: 100%;
+    height: 580px;
+}
+
+.img-d {
+    padding-top: 260px;
+}
+
+/* Services */
+
+.icons-retreat {
+    padding-top: 100px;
+}
+
+.icons-bg {
+    padding-bottom: 40px;
+    background: #f5f5f5;
+}
+
+.icons-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.icons-text {
+    padding-bottom: 65px;
+    font-size: 16px;
+    color: #787878;
+}
+
+/* Testimonials Slider */
+
+.slider-height {
+    height: 500px;
+    background: #10c9c3;
+}
+
+.slider-title {
+    padding-top: 150px;
+    font-size: 24px;
+    color: white;
+}
+
+.slider-text {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Sponsors */
+
+.sponsor-row {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .sponsor-row {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
+.sponsors-retreat {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* Contact */
+
+.contact-bg {
+    background: #f5f5f5;
+}
+
+.contact-title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: #1d1d1d;
+}
+
+.contact-retreat {
+    height: 50px;
+    color: white;
+}
+
+.form-control {
+    margin-bottom: 30px;
+    border: 1px solid white;
+}
+
+.contact-send {
+    margin-left: 15px;
+    color: white !important;
+}
+
+/* Footer */
+
+.footer {
+    padding-bottom: 100px;
+    background: #141414;
+}
+
+.footer-retreat {
+    margin-top: 100px;
+}
+
+.footer-title {
+    font-size: 18px;
+    color: white;
+}
+
+.footer-text {
+    display: block;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+}
+
+.footer-link {
+    display: block;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}

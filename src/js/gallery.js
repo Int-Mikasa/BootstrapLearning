@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 let hiddenItems = $(".hidden");
 
 $(document).on("click", "#load-more", function () {

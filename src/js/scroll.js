@@ -1,3 +1,4 @@
+import $ from 'jquery'
 $(".navbar a").click(function () {
     $("body,html").animate(
         {

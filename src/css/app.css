@@ -1,9 +1,9 @@
-body {
-    font-family: "Montserrat", sans-serif;
-}
-
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 991px) {
